@@ -1,0 +1,325 @@
+@use 'vars';
+
+%fontHeaderLeftSection_ {
+    font-family: vars.$font;
+    font-size: 27px;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+%fontHeaderLeftSectionBrand {
+    @extend %fontHeaderLeftSection_;
+    font-weight: vars.$fontWeight300;
+    color: #222222;
+}
+
+%fontHeaderLeftSectionBrandD {
+    @extend %fontHeaderLeftSection_;
+    font-weight: vars.$fontWeight900;
+    color: #f16d7f;
+}
+
+%fontHeaderSearchFilter {
+    font-family: vars.$font;
+    font-size: 14px;
+    font-weight: vars.$fontWeight300;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+%fontHeaderUsersectionButton {
+    font-family: vars.$font;
+    font-size: 15px;
+    font-weight: vars.$fontWeight400;
+    ;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+//All Buttons
+%fontButton_ {
+    font-family: vars.$font;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+%fontButtonOne {
+    @extend %fontButton_;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: vars.$fontWeight400;
+}
+
+%fontButtonThree {
+    @extend %fontButton_;
+    font-size: 14px;
+    line-height: 54px;
+    font-weight: vars.$fontWeight400;
+}
+
+//slider
+%fontSliderTextBoxTitle {
+    font-family: vars.$font;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: vars.$fontWeight900;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+%fontSliderTextBoxContent {
+    font-family: vars.$font;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: vars.$fontWeight900;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+%fontSliderTextBoxContentOT {
+    font-family: vars.$font;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: vars.$fontWeight900;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+}
+
+
+
+//category
+
+%font {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+%fontCategory_ {
+    font-family: vars.$font;
+    line-height: 1.2;
+    font-weight: vars.$fontWeight900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+%fontCategoryMarkerText1 {
+    @extend %fontCategory_;
+    font-size: 18px;
+    color: #222222;
+}
+
+%fontCategoryMarkerText2 {
+    @extend %fontCategory_;
+    font-size: 30px;
+    color: #f16d7f;
+}
+
+//product
+%fontProductTitle {
+    font-family: vars.$font;
+    font-size: 30px;
+    font-weight: vars.$fontWeight700;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+%fontProductContent {
+    font-family: vars.$font;
+    font-size: 14px;
+    font-weight: vars.$fontWeight400;
+    letter-spacing: 0.025em;
+    color: #9f9f9f;
+}
+
+%fontProductBoxTitle {
+    font-family: vars.$font;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: vars.$fontWeight400;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+%fontProductBoxPrice {
+    font-family: vars.$font;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: vars.$fontWeight700;
+    text-transform: uppercase;
+    color: #f16d7f;
+}
+
+%fontButtonBrowseAllLink {
+    @extend %fontButton_;
+    font-size: 16px;
+    font-weight: vars.$fontWeight700;
+}
+
+//feature
+//feature__main
+%fontFeature_ {
+    font-family: vars.$font;
+    line-height: 1.2;
+    font-weight: vars.$fontWeight700;
+    letter-spacing: 0.025em;
+}
+
+%fontFeatureMain1 {
+    @extend %fontFeature_;
+    font-size: 53.7px;
+    color: #ffffff;
+}
+
+%fontFeatureMain2 {
+    @extend %fontFeature_;
+    font-size: 53.7px;
+    color: #f16d7f;
+}
+
+%fontFeatureMain3 {
+    @extend %fontFeature_;
+    font-size: 32.2px;
+    color: #ffffff;
+}
+
+%fontFeatureMainTwo {
+    @extend %fontFeature_;
+    font-size: 32.2px;
+    color: #ffffff;
+}
+
+//feature
+//feature__item
+%fontFeatureItemTitle {
+    font-family: vars.$font;
+    font-size: 20px;
+    font-weight: vars.$fontWeight700;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+%fontFeatureItemDescription {
+    font-family: vars.$font;
+    font-size: 14px;
+    font-weight: vars.$fontWeight300;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+//subscribe
+//subscribe__quote
+%fontSubscribeQuoteText {
+    font-family: vars.$font;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: vars.$fontWeight400;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+%fontSubscribeQuoteAuthorOne {
+    font-family: vars.$font;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: vars.$fontWeight700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+}
+
+%fontSubscribeQuoteAuthorTwo {
+    font-family: vars.$font;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: vars.$fontWeight300;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+//subscribe__area
+%fontSubscribeAreaTitle {
+    font-family: vars.$font;
+    font-size: 24px;
+    line-height: 54px;
+    font-weight: vars.$fontWeight400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+%fontSubscribeAreaDescription {
+    font-family: vars.$font;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: vars.$fontWeight400;
+    text-transform: none;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+%fontSubscribeAreaBox {
+    opacity: 0.67;
+    font-family: vars.$font;
+    font-size: 14px;
+    line-height: 54px;
+    font-weight: vars.$fontWeight400;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+%fontSubscribeAreaButton {
+    @extend %fontButtonThree;
+}
+
+//links
+//links__mission
+%linksMissionTitle {
+    @extend %fontHeaderLeftSectionBrand;
+}
+
+%linksMissionTitleD {
+    @extend %fontHeaderLeftSectionBrandD;
+}
+
+%linksMissionPassage {
+    font-family: vars.$font;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: vars.$fontWeight300;
+    letter-spacing: 0.025em;
+    color: #898989;
+}
+
+//links__set
+%linksSetTitle {
+    font-family: vars.$font;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: vars.$fontWeight700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+}
+
+%linksSetItem {
+    font-family: vars.$font;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: vars.$fontWeight400;
+    letter-spacing: 0.025em;
+    color: #898989;
+}
+
+
+//footer
+%footerRights {
+    font-family: vars.$font;
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: vars.$fontWeight400;
+    letter-spacing: 0.025em;
+    color: #7a7a7a;
+}
